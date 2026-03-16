@@ -217,7 +217,7 @@ body {
         top: 6px;
         width: 13px;
         height: 13px;
-        background-image: url("/images/check.svg");
+        background-image: url("/images/CHECK.svg");
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -595,7 +595,7 @@ body {
         top: 6px;
         width: 13px;
         height: 13px;
-        background-image: url("/images/check.svg");
+        background-image: url("/images/CHECK.svg");
         background-size: contain;
         background-repeat: no-repeat;
     }
