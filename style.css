@@ -95,7 +95,7 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 50px;
-        background-image: url(images/FUNDO\ 2.png);
+        background-image: url(images/FUNDO\ 2.webp);
         background-size: cover;
         padding: 810px 0px 80px 0px;
         margin-top: -810px;
@@ -153,11 +153,11 @@ body {
     }
 
     .botton:nth-child(1) .botton-bg {
-        background-image: url(images/BOTÃO\ 1.png);
+        background-image: url(images/BOTÃO\ 1.webp);
     }
 
     .botton:nth-child(2) .botton-bg {
-        background-image: url(images/BOTÃO\ 2.png);
+        background-image: url(images/BOTÃO\ 2.webp);
     }
 
     /* Efeito de escala no hover - controlado por JS para altura */
@@ -459,7 +459,7 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 30px;
-        background-image: url(images/FUNDO\ 2.png);
+        background-image: url(images/FUNDO\ 2.webp);
         background-size: cover;
         padding-top: 950px;
         padding-bottom: 40px;
@@ -532,11 +532,11 @@ body {
     }
 
     .botton:nth-child(1) .botton-bg {
-        background-image: url(/images/BOTÃO\ 1\ m.png)
+        background-image: url(/images/BOTÃO\ 1\ m.webp)
     }
 
     .botton:nth-child(2) .botton-bg {
-        background-image: url(/images/BOTÃO\ 2\ m.png);
+        background-image: url(/images/BOTÃO\ 2\ m.webp);
     }
 
     /* Efeito de escala no hover - controlado por JS para altura */
