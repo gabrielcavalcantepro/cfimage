@@ -408,6 +408,8 @@ body {
 /*----MOBILE----*/
 
 @media (min-width: 320px) and (max-width: 767px) {
+
+
     .secao-1 {
         width: 100%;
         height: 80vh;
@@ -421,13 +423,15 @@ body {
 
     .fundo-1 {
         position: absolute;
-        height: 50vh;
+        height: 100vh;
         width: 100%;
         left: 0;
+        top: 0;
         overflow: visible;
         z-index: -1;
         object-fit: cover;
-        object-position: calc(50% - 35vw) calc(50% - 28vh);
+        object-position: calc(50% - 0vw) calc(50% - 0vh);
+        content: url('images/SEÇÃO\ 1m.webp');
     }
 
     .titulo-hero {
