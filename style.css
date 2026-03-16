@@ -1,3 +1,37 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayfairDisplay-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayfairDisplay-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 body {
     font-family: 'Playfair Display', Georgia, serif;
     /* fallback stack */
@@ -43,7 +77,7 @@ body {
     .titulo-hero {
         font-family: 'Playfair Display';
         color: #433630;
-        font-weight: 600;
+        font-weight: bold;
         font-size: 60px;
         text-align: left;
         line-height: 60px;
@@ -58,10 +92,10 @@ body {
 
     .description {
         color: #827068;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins';
         width: 35%;
         font-size: 20px;
-        font-weight: 300;
+        font-weight: normal;
         text-align: left;
         line-height: 25px;
         margin-top: 20px;
@@ -75,9 +109,9 @@ body {
 
     .cta-text {
         color: #7E8C7B;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins';
         font-size: 20px;
-        font-weight: 600;
+        font-weight: bold;
         text-align: center;
         line-height: 25px;
         margin-bottom: 15px;
@@ -170,7 +204,7 @@ body {
         font-size: 35px;
         line-height: 40px;
         color: white;
-        font-weight: 500;
+        font-weight: normal;
         width: 361px;
     }
 
@@ -179,7 +213,7 @@ body {
         font-size: 20px;
         line-height: 25px;
         color: #C8D4C6;
-        font-weight: 300;
+        font-weight: normal;
         margin-top: 5px;
         width: 401px;
     }
@@ -205,7 +239,7 @@ body {
         padding-left: 20px;
         font-size: 16px;
         line-height: 21px;
-        font-weight: 280;
+        font-weight: normal;
         font-family: 'Poppins', sans-serif;
         color: #C8D4C6;
     }
@@ -231,7 +265,7 @@ body {
         color: #7F8D7E;
         font-family: 'Poppins', sans-serif;
         font-size: 17px;
-        font-weight: 600;
+        font-weight: bold;
         border-radius: 10px;
         margin-top: 27px;
         text-align: center;
@@ -399,7 +433,7 @@ body {
     .titulo-hero {
         font-family: 'Playfair Display';
         color: #433630;
-        font-weight: 600;
+        font-weight: bold;
         font-size: 40px;
         text-align: center;
         line-height: 40px;
@@ -550,7 +584,7 @@ body {
         line-height: 30px;
         width: 90%;
         color: white;
-        font-weight: 500;
+        font-weight: bold;
     }
 
     .para-botton {
