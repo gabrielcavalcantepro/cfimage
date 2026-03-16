@@ -407,7 +407,7 @@ body {
 
 /*----MOBILE----*/
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
 
 
     .secao-1 {
@@ -786,7 +786,7 @@ body {
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
 
     /* FORÇA hardware acceleration para evitar bugs */
     .botton {
