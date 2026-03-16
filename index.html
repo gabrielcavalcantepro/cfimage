@@ -5,11 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fernanda e Clenir</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+    <link rel="preload" href="/fonts/PlayfairDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/PlayfairDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- CSS assíncrono -->
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="style.css">
+    </noscript>
+
 </head>
 
 <body>
@@ -20,7 +26,8 @@
                     <img data-speed=".5" class="fundo-1" src="images/SEÇÃO 1.webp" alt="" fetchpriority=high>
                     <div class="content">
                         <h1 class="titulo-hero blur">Seja Muito<br><span>Bem-Vindo(a)!</span></h1>
-                        <p class="description blur">Psicologia da Imagem para Posicionamento Feminino. Imagem não é estética. É identidade comunicada.
+                        <p class="description blur">Psicologia da Imagem para Posicionamento Feminino. Imagem não é
+                            estética. É identidade comunicada.
                         </p>
 
                         <div class="cta blur">
@@ -48,7 +55,8 @@
                             </h2>
 
                             <p class="para-botton">
-                                Um encontro direto, objetivo e aplicável. Sem terapia, sem processo longo, clareza + direção no mesmo dia.
+                                Um encontro direto, objetivo e aplicável. Sem terapia, sem processo longo, clareza +
+                                direção no mesmo dia.
                             </p>
 
                             <!-- 🔥 WRAPPER -->
@@ -72,7 +80,8 @@
                                 Transformação completa - Mentoria: Psicologia da Imagem para Posicionamento Feminino
                             </h2>
                             <p class="para-botton">
-                                Para mulheres que precisam reconstruir identidade, presença e imagem de forma profunda e estruturada. Aqui não é ajuste superficial. É uma reconstrução emocional + estratégica.
+                                Para mulheres que precisam reconstruir identidade, presença e imagem de forma profunda e
+                                estruturada. Aqui não é ajuste superficial. É uma reconstrução emocional + estratégica.
                             </p>
                             <!-- 🔥 WRAPPER -->
                             <div class="botton-extra">
@@ -82,8 +91,7 @@
                                     <li>Consolidação</li>
                                 </ul>
 
-                                <a class="saiba-mais"
-                                    href="">Quero me candidatar à Mentoria</a>
+                                <a class="saiba-mais" href="">Quero me candidatar à Mentoria</a>
                             </div>
                         </div>
                     </div>
